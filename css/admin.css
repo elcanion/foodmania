@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+nav ul li a:hover {
+    color: #ff4757;
+}
+
+main {
+    background-color: #f1f2f6;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+
+footer {
+    background-color: #ff4757;
+    color: white;
+}
+
+.table-admin {
+    width: 100%;
+}
+
+.table-admin tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+.table-admin tr td {
+    padding: 1%;
+}
+
+.button-new-admin {
+    background-color: #1e90ff;
+    padding: 2%;
+    margin: 2% 0;
+    border: none;
+}
+
+.button-new-admin:hover {
+    background-color: #3742fa;
+}
+
+.button-new-admin a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-update-admin {
+    background-color: #3d9258;
+    padding: 2%;
+    margin: 2% 0;
+    border: none;
+}
+
+.button-update-admin:hover {
+    background-color: #256138;
+}
+
+.button-update-admin a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-delete-admin {
+    background-color: #a52026;
+    padding: 2%;
+    margin: 2% 0;
+    border: none;
+}
+
+.button-delete-admin:hover {
+    background-color: #771217;
+}
+
+.button-delete-admin a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.login-input {
+    padding: 20px;
+    margin: 10px;
+}
+
+.error {
+    color: red;
+    margin: 10px;
+}
